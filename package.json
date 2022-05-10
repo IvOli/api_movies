@@ -1,0 +1,19 @@
+{
+  "name": "db_with_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "David Oliva <divoliva@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "knex": "^2.0.0",
+    "pg": "^8.7.3"
+  }
+}
